@@ -1,0 +1,7 @@
+A=list(map(int,input().strip().split()))
+B=[]
+for num in A:
+    if(num>=0):
+        B.append(num)
+print(B)
+        
